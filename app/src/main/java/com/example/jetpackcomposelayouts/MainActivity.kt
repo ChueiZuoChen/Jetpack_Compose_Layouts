@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            JetpackComposeLayoutsTheme {
+            JetpackComposeLayoutsTheme() {
                 //PhotographicCard()
                 //LayoutStudy()
                 //SimpleColumn()
@@ -23,7 +23,8 @@ class MainActivity : ComponentActivity() {
                 //ScrollingList()
                 //TextWithPaddingToBaseLine()
                 //MyOwnColumnSimple()
-                StaggledGridBodyContent()
+                //StaggledGridBodyContent()
+                MyLayout()
             }
         }
     }
