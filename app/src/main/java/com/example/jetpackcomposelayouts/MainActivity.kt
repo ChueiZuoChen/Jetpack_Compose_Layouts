@@ -22,7 +22,8 @@ class MainActivity : ComponentActivity() {
                 //LazyList()
                 //ScrollingList()
                 //TextWithPaddingToBaseLine()
-                MyOwnColumnSimple()
+                //MyOwnColumnSimple()
+                StaggledGridBodyContent()
             }
         }
     }
