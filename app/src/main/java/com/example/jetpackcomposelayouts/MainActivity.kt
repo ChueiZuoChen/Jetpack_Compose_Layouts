@@ -21,7 +21,8 @@ class MainActivity : ComponentActivity() {
                 //SimpleList()
                 //LazyList()
                 //ScrollingList()
-                TextWithPaddingToBaseLine()
+                //TextWithPaddingToBaseLine()
+                MyOwnColumnSimple()
             }
         }
     }
