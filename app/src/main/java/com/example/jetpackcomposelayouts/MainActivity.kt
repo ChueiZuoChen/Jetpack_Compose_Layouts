@@ -20,7 +20,8 @@ class MainActivity : ComponentActivity() {
                 //SimpleColumn()
                 //SimpleList()
                 //LazyList()
-                ScrollingList()
+                //ScrollingList()
+                TextWithPaddingToBaseLine()
             }
         }
     }
